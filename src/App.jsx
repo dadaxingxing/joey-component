@@ -1,10 +1,11 @@
 import { useState } from 'react'
 import './App.css'
+import Joey_component from './Joey_component'
 
 function App() {
 
   return (
-    <div></div>
+    <Joey_component/>
   )
 }
 
