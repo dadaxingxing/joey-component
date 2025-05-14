@@ -12,6 +12,14 @@
     outline-style: solid;   
 }
 
+.dialogButton {
+    border: none;
+    background-color: var(--black);
+    padding: 10px 15px;
+    border-radius: 5px;
+    color: white;
+}
+
 .headerStyle{
     height: 20%;
     /* background-color: var(--red);    */
