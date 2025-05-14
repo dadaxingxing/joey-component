@@ -7,13 +7,15 @@ function Joey_component() {
     };
 
     return (
-        <div className='dialogStyle'>
-            <div className='headerStyle'>
+        <div className='d-flex justify-content-center align-items-center min-vh-100'>
+            <div className='dialogStyle col-6 position-relative '> 
+                <div className='headerStyle'>
+        
+                </div>
 
-            </div>
-
-            <div className='footerStyle'>
-                <button className='dialogButton' onClick={handleClose}>Close</button>
+                <div className='footerStyle d-flex justify-content-center'>
+                    <button className='dialogButton position-absolute bottom-0 start-50 translate-middle-x mb-3' onClick={handleClose}>Close</button>
+                </div>
             </div>
         </div>
     )
