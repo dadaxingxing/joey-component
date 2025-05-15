@@ -6,7 +6,7 @@ function App() {
 
   return (
     <Joey_component 
-      title={<div >Joey is the best developer</div>}
+      title={<div >title</div>}
     />
   )
 }
