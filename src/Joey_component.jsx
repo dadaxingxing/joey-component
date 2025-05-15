@@ -1,7 +1,7 @@
 import './Joey_component.css'
 import { useState } from 'react'
 
-function Joey_component() {
+function Joey_component( { title }) {
     const handleClose = () => {
         console.log('dialog close called!');
     };
@@ -9,8 +9,8 @@ function Joey_component() {
     return (
         <div className='d-flex justify-content-center align-items-center min-vh-100'>
             <div className='dialogStyle col-6 position-relative '> 
-                <div className='headerStyle'>
-        
+                <div className='headerStyle d-flex justify-content-center align-items-center'>
+                    {title}
                 </div>
 
                 <div className='footerStyle d-flex justify-content-center'>
